@@ -16,7 +16,7 @@ $ export CUDACXX=${CUDA_INSTALL_PATH}/bin/nvcc
 $ mkdir build && cd build
 
 $ cmake .. -DCUTLASS_NVCC_ARCHS=<XX> -DCUTLASS_LIBRARY_KERNELS=all  # XX : 70, 75, 80, 86, 89, 90, 90a # long build time
-...
+
 $ make cutlass_profiler -j16
 
 $ make install
